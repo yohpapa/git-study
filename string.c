@@ -19,11 +19,13 @@ char* my_strcpy(char* t, char* s)
     return p;
 }
 
+#define TEXT_LEN (32)
+
 int main(void)
 {
-    int i;
-    char p1[32];
-    char *s[] =
+    int   i;
+    char  p1[TEXT_LEN];
+    char* s[] =
     {
         "Git tutorials",
         "Tutorials point",
